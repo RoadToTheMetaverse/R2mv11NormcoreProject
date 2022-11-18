@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: VSOnEnterState
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"In","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Out","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"NewStep","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Enter
+      State Routine","summary":"Common actions performed for every state","pan":{"x":428.0,"y":213.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-691.0,"y":181.0},"guid":"cd686d0c-6db7-432f-8fa0-caf3ce046249","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":365.0,"y":181.0},"guid":"bc4972b6-2d98-4390-982f-ce2fd1f76b86","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"14"},{"kind":"Scene","defaultValues":{"name":{"$content":"CurrentStep","$type":"System.String"}},"position":{"x":-354.0,"y":177.0},"guid":"203f6913-97a8-4880-9b25-6f4451661986","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"16"},{"argumentCount":0,"defaultValues":{"sendOnce":{"$content":false,"$type":"System.Boolean"},"notificationType":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":-64.0,"y":162.0},"guid":"b090fff6-ede5-4c28-a72e-6569e7f9791b","$version":"A","$type":"Notifications.SendNotificationUnit","$id":"18"},{"sourceUnit":{"$ref":"12"},"sourceKey":"In","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"cb612cb5-7e80-4edf-aaff-bcc7d499117a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"assigned","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"8ddc3d3e-ed3d-4c14-9359-5359f8fa7441","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"Out","guid":"415c7ff1-0c65-4515-a0e8-fe6f22406561","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"NewStep","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"a275f068-d29d-452c-a935-11dae352b242","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: f4a5f6c74cc3d394786c11ab7ed20e31, type: 2}

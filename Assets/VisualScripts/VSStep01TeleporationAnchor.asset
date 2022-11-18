@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: VSStep01TeleporationAnchor
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":1198.737,"y":289.6765},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-132.0,"y":189.0},"guid":"a7929fba-5c1f-4ace-8f95-f5f7e820204a","$version":"A","$type":"Flow.Framework.Events.XRIT.OnTeleporting","$id":"9"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":599.0,"y":188.0},"guid":"00882a32-bd39-403d-942a-f1cf0e8f1096","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"UISoundPlayer","$type":"System.String"}},"position":{"x":346.0,"y":295.0},"guid":"2f3b1ab7-c123-4967-a828-2e743d1575ed","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"argumentCount":0,"defaultValues":{"notificationType":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":1128.0,"y":172.0},"guid":"2756e5ff-1dc3-4acc-8165-6ea135b79e23","$version":"A","$type":"Notifications.SendNotificationUnit","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"ddf2b617-2d84-43f3-9616-bb8089c6d26f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"628d5ef6-aa77-4623-9581-1e0e88c94b10","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"d86b9b49-a94c-4eb3-8e64-c208fbffcd23","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-202.0,"yMin":79.98113,"xMax":199.0,"yMax":428.9811},"label":"XRI
+      VS Extensions Event","comment":null,"color":{"r":1.0,"g":0.3339622,"b":0.3339622,"a":1.0},"guid":"734efa10-73f4-4d6f-8bed-1dbc0573921d","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":301.0,"yMin":98.98113,"xMax":876.0,"yMax":423.9811},"label":"Play
+      a sound","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"42f6457f-241b-412f-ae0c-c72214a64417","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":926.0,"yMin":87.98113,"xMax":1499.0,"yMax":445.9811},"label":"Step
+      is complete!","comment":null,"color":{"r":0.01176471,"g":0.5882353,"b":0.6509804,"a":1.0},"guid":"c3883b54-e77a-4b31-b07e-25fada5b7f6c","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: 7f654842aaf974ca39064687927e7574, type: 3}
+    - {fileID: 11400000, guid: 7fed63b1e150e864fbbc95570fb3d5d2, type: 2}

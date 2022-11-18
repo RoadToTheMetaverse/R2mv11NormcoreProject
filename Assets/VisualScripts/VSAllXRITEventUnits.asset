@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: VSAllXRITEventUnits
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":43.5,"y":-97.0},"zoom":0.4307167,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-635.0,"y":-356.0},"guid":"fbceafc0-5635-4bcb-80c7-9c1b4487f4ed","$version":"A","$type":"Flow.Framework.Events.XRIT.OnActivated"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-635.0,"y":-168.0},"guid":"1706c0c9-e435-48d4-8880-75af5ce8c50b","$version":"A","$type":"Flow.Framework.Events.XRIT.OnDeactivated"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-349.0,"y":-356.0},"guid":"736bcedc-c905-4544-88fd-b4c06db7c2e5","$version":"A","$type":"Flow.Framework.Events.XRIT.OnFirstHoverEntered"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-348.0,"y":-168.0},"guid":"b82e6f3a-fa2f-4fb0-94b1-8d9dbe25fce9","$version":"A","$type":"Flow.Framework.Events.XRIT.OnLastHoverExited"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":510.0,"y":-356.0},"guid":"acfbbe84-ba75-4ba6-964f-b33c6d64a72a","$version":"A","$type":"Flow.Framework.Events.XRIT.OnFirstSelectEntered"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-62.0,"y":-356.0},"guid":"6ee74c88-348a-4437-aafe-af7b4142167d","$version":"A","$type":"Flow.Framework.Events.XRIT.OnHoverEntered"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-61.0,"y":-168.0},"guid":"5e63a3bf-255d-4fb9-81d1-e41076e5a851","$version":"A","$type":"Flow.Framework.Events.XRIT.OnHoverExited"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":513.0,"y":-168.0},"guid":"c6f3c1b0-5191-409c-9a11-06807c089792","$version":"A","$type":"Flow.Framework.Events.XRIT.OnLastSelectExited"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":224.0,"y":-356.0},"guid":"da30240d-1f71-42f5-a0be-445b3b8ea253","$version":"A","$type":"Flow.Framework.Events.XRIT.OnSelectEntered"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":226.0,"y":-168.0},"guid":"ef2649af-e579-4e57-bad0-4305c0ad1b3b","$version":"A","$type":"Flow.Framework.Events.XRIT.OnSelectExited"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-635.0,"y":29.0},"guid":"802ac77c-3fdb-409f-aa23-a3597fa37d96","$version":"A","$type":"Flow.Framework.Events.XRIT.OnTeleporting"},{"position":{"xMin":-664.0,"yMin":-420.0,"xMax":751.0,"yMax":226.0},"label":"XRIT
+      Event!","comment":null,"color":{"r":0.2470588,"g":0.3019608,"b":0.3490196,"a":1.0},"guid":"5f587102-93b8-416a-aa6d-1b7f8c5348ea","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
