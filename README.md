@@ -1,4 +1,4 @@
-![R2MV](README/Banner.png)
+![R2MV](https://i.imgur.com/SAdxi7s.png)
 
 # Episode 11 - Multi-User Training with Normcaore
 
