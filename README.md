@@ -1,6 +1,6 @@
 ![R2MV](https://i.imgur.com/SAdxi7s.png)
 
-# Episode 11 - Multi-User Training with Normcaore
+# Episode 11 - Multi-User Training with Normcore
 
 This example project is part of the [Road to Metaverse, Creator Series](https://create.unity.com/road-to-metaverse). For more information on episode 11, `Masterclass: Build a collaborative multi-user experience`, or if you have questions, check out [this forum thread](https://forum.unity.com/threads/workshops-build-a-collaborative-multi-user-experience.1293408/).
 
